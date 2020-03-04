@@ -15,6 +15,6 @@
 def speak_to_grandma(phrase)
   if phrase == phrase.capitalize
     puts "HUH?! SPEAK UP, SONNY!"
-  else phrase == phrase.upcase
+  else phrase.upcase
  end
 end
